@@ -1,0 +1,3 @@
+%s - Run a command as root
+
+USE: %s command [arg...]
