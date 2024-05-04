@@ -1,5 +1,4 @@
 BIN := $(HOME)/bin/orly
-BIN := ./build/orly
 
 orly: main.c help.h
 	$(CC) --std=c11 -Werror -Wall -o $@ $<
